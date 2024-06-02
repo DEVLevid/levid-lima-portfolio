@@ -2,37 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #121214;
-    color: var(--gray-100);
+  font-family: "Roboto", sans-serif;
+  color: var(--gray-100);
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
 }
 
-body input, button, textarea {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
+body input,
+button,
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 :root {
-    --white: #fff;
-  
-    --gray-100: #e1e1e6;
-    --gray-300: #c4c4cc;
-    --gray-400: #8d8d99;
-    --gray-600: #323238;
-    --gray-700: #29292e;
-    --gray-800: #202024;
-    --gray-900: #121214;
-  
-    --green-300: #00b37e;
-    --green-500: #00875f;
-  
-    --red-500: #f75a68;
-  }
+  --white: #fff;
+
+  --color: rgba(12, 12, 12, 0.8);
+
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #070707;
+
+  --green-300: #00b37e;
+  --green-500: #00875f;
+
+  --red-500: #f75a68;
+}
