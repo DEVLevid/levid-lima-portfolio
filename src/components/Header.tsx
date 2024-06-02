@@ -2,7 +2,7 @@ import { Code, GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
 
 export default function Header() {
     return (
-        <header className="w-full h-14 bg-black flex items-center justify-between pl-72 pr-72 shadow-md fixed">
+        <header className="w-full h-14 bg-black flex items-center justify-between pl-72 pr-72 shadow-md fixed top-0 z-10">
             <a href="/" className="text-2xl flex flex-row items-center gap-2"><Code size={28} />Lima</a>
             <ul className="text-center flex flex-row gap-20 text-xl">
                 <li><a href="" className=" border-b-2 border-transparent hover:border-purple-600 transition-colors delay">Início</a></li>
