@@ -48,7 +48,7 @@ export default function Home() {
         direction="left"
         speed={80}
         autoFill
-        className="flex bg-black h-20 mt-12 w-11/12 rounded-md m-auto items-center flex-row gap-6 transform -rotate-[2deg]"
+        className="flex bg-black h-20 mt-12 w-11/12 rounded-md items-center flex-row gap-6 transform rotate-2"
         style={{ transformOrigin: 'center' }}
       >
           <img src="https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000" alt="ReactJs" className="size-8 mr-6" />
