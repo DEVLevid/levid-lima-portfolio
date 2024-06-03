@@ -2,10 +2,12 @@ import profile from "../assets/Levid.jpg";
 import about from "../assets/About.jpeg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import Courses from "./Courses";
+import Experience from "./Experience";
 
 export default function About() {
   return (
-    <div className=" flex mt-40 ml-80">
+    <div className=" flex mt-40 ml-80 mb-60">
       <div className="">
         <h1 className="text-6xl font-bold font-mono">SOBRE MIM</h1>
         <p className="w-2/4 mt-4 font-medium text-wrap text-xl leading-8">
@@ -22,12 +24,13 @@ export default function About() {
           principalmente pela capacidade de transformação de ideias em coisas
           reais através dele.
         </p>
+        <Courses className="mt-10"/>
+        <Experience className="mt-5"/>
       </div>
       <Carousel
         autoPlay={true}
         interval={5000}
         showThumbs={false}
-        swipeable={true}
         showArrows={false}
         showStatus={false}
         infiniteLoop={true}
