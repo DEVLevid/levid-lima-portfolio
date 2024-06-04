@@ -7,8 +7,8 @@ export default function Header() {
             <ul className="text-center flex flex-row gap-20 text-xl">
                 <li><a href="" className=" border-b-2 border-transparent hover:border-purple-600 transition-colors delay">Início</a></li>
                 <li><a href="" className=" border-b-2 border-transparent hover:border-purple-600 transition-colors delay">Sobre mim</a></li>
-                <li><a href="" className=" border-b-2 border-transparent hover:border-purple-600 transition-colors delay">Projetos</a></li>
                 <li><a href="" className=" border-b-2 border-transparent hover:border-purple-600 transition-colors delay">Serviços</a></li>
+                <li><a href="" className=" border-b-2 border-transparent hover:border-purple-600 transition-colors delay">Projetos</a></li>
                 <li><a href="" className=" border-b-2 border-transparent hover:border-purple-600 transition-colors delay">Contato</a></li>
             </ul>
             <div className="flex flex-row gap-2">
