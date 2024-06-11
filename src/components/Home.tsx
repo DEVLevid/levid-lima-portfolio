@@ -6,7 +6,7 @@ import icon from '../assets/Code typing-bro.png'
 export default function Home() {
   return (
     <>
-      <div id="#home" className="flex items-center mt-60">
+      <div id="home" className="flex items-center mt-60">
         <div className="flex flex-col ml-80">
           <h1 className=" text-6xl font-bold">
             👾 Olá!! Sou <span className=" text-purple-800"> Levid </span>

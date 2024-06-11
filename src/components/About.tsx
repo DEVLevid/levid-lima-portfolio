@@ -7,7 +7,7 @@ import Experience from "./Experience";
 
 export default function About() {
   return (
-    <div className=" flex mt-40 ml-80 mb-60">
+    <div id="about" className=" flex mt-40 ml-80 mb-40">
       <div className="">
         <h1 className="text-6xl font-bold font-mono">SOBRE MIM</h1>
         <p className="w-2/4 mt-4 font-medium text-wrap text-xl leading-8">

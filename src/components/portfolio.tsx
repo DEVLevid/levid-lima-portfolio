@@ -7,7 +7,7 @@ import "swiper/css/bundle";
 
 export default function Portfolio() {
   return (
-    <div className="mb-40">
+    <div className="mb-40" id="portfolio">
       <h1 className="text-5xl flex mb-20 justify-center">Projetos</h1>
       <Swiper
         slidesPerView={3.2}
