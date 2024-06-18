@@ -23,7 +23,7 @@ export const Projects = [
     name: "Supi chess",
     description: "Uma plataforma de cursos online do grão-mestre de xadrez Luiz Paulo Supi e a Mestre-internacional Julia Alboredo.",
     pictureUrl: supiImage,
-    link: "",
+    link: "https://github.com/DEVLevid/supi-chess",
   },
   {
     id: 4,
