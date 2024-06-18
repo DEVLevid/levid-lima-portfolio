@@ -1,6 +1,7 @@
 import dolceImage from '../assets/dolce.png';
 import starImage from '../assets/star.png';
 import supiImage from '../assets/supi.jpeg';
+import collaboraImage from '../assets/Colabora.png';
 
 export const Projects = [
   {
@@ -28,8 +29,8 @@ export const Projects = [
     id: 4,
     name: "Colabora - DIT",
     description: "Contribuo ativamente no projeto COLABORA, uma aplicação Web para gestão interna.",
-    pictureUrl: "",
-    link: "",
+    pictureUrl: collaboraImage,
+    link: "https://github.com/DIT-IFAL",
   },
   
 ];
