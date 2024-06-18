@@ -6,18 +6,18 @@ import icon from "../assets/Code typing-bro.png";
 export default function Home() {
   return (
     <>
-      <div id="home" className="flex items-center mt-60">
-        <div className="flex flex-col ml-80">
-          <h1 className=" text-6xl font-bold">
+      <div id="home" className="flex items-center mt-60 2xl:mt-40">
+        <div className="flex flex-col ml-80 2xl:ml-12">
+          <h1 className=" text-6xl font-bold 2xl:text-4xl">
             👾 Olá!! Sou <span className=" text-purple-800"> Levid </span>
           </h1>
           <div className=" flex flex-row items-center gap-4 mt-6">
-            <p className=" border-b-2 w-64"></p>
-            <p className=" flex text-center text-4xl gap-2 font-bold">
+            <p className=" border-b-2 w-64 2xl:w-28"></p>
+            <p className=" flex text-center text-4xl gap-2 font-bold 2xl:text-2xl">
               Desenvolvedor<span className=" text-purple-800">Frontend </span>
             </p>
           </div>
-          <div className=" w-2/4 mt-4 font-medium text-wrap text-xl leading-8">
+          <div className=" w-2/4 mt-4 font-medium text-wrap text-xl leading-8 md:w-3/4">
             <p>
               <span className="text-purple-300">Desenvolvedor Frontend</span>{" "}
               apaixonado por tecnologia e por transformar ideias em realidade
@@ -30,7 +30,7 @@ export default function Home() {
               </span>
             </p>
           </div>
-          <div className="flex flex-row gap-6 mt-6 items-center">
+          <div className="flex flex-row gap-6 mt-6 items-center 2xl:flex-col 2xl:items-start">
             <a href="#contact">
               <button className=" flex items-center justify-center w-60 p-4 gap-4 font-light rounded-md text-center bg-purple-950 hover:bg-purple-800 transition-colors delay">
                 Entre em contato <PaperPlaneTilt size={32} />
@@ -43,7 +43,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="flex items-center justify-center rounded-lg object-cover overflow-hidden absolute right-80 w-80">
+        <div className="flex items-center justify-center rounded-lg object-cover overflow-hidden absolute right-80 w-80 md:hidden 2xl:right-12">
           <img src={icon} alt="" className="object-cover" />
         </div>
       </div>

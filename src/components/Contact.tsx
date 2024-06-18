@@ -51,38 +51,38 @@ export default function Contact() {
       id="contact"
       className="flex flex-col items-center justify-center mb-40"
     >
-      <h1 className="text-6xl mb-12">Entre em contato</h1>
-      <div className="bg-gray-900 w-2/3 m-auto rounded-lg p-16 flex justify-between">
-        <div className="flex flex-col w-2/4">
-          <h1 className="text-4xl font-mono  flex flex-row items-center gap-4 mb-4">
+      <h1 className="text-6xl mb-12 2xl:text-4xl">Entre em contato</h1>
+      <div className="bg-gray-900 w-2/3 m-auto rounded-lg p-16 flex justify-between 2xl:flex-col 2xl:items-center 2xl:gap-10 md:w-auto">
+        <div className="flex flex-col w-2/3">
+          <h1 className="text-4xl text-purple-400 font-mono  flex flex-row items-center gap-4 mb-4 md:text-2xl">
             Mande uma mensagem
-            <EnvelopeOpen size={30} />
+            <EnvelopeOpen size={40}/>
           </h1>
-          <p className="w-4/5">
+          <p className="w-4/5 2xl:w-auto ">
             Entre em contato comigo para discutir uma possível colaboração,
             contratar meus serviços para um trabalho específico, contratação,
             fazer uma pergunta, ou simplesmente dar um oi.
           </p>
 
-          <h1 className="text-3xl font-mono mt-8">Social</h1>
-          <div className="flex flex-row mt-4 gap-4">
+          <h1 className="text-3xl font-mono mt-8 text-purple-400 2xl:self-center">Social</h1>
+          <div className="flex flex-row mt-4 gap-4 2xl:items-center 2xl:justify-center">
             <a
               href="https://www.instagram.com/levidlima/"
               className="hover:text-purple-900 transition-all"
             >
-              <InstagramLogo size={32} />
+              <InstagramLogo size={40} />
             </a>
             <a
               href="https://github.com/DEVLevid"
               className="hover:text-purple-900 transition-all"
             >
-              <GithubLogo size={32} />
+              <GithubLogo size={40} />
             </a>
             <a
               href="www.linkedin.com/in/levid-lima-326311260"
               className="hover:text-purple-900 transition-all"
             >
-              <LinkedinLogo size={32} />
+              <LinkedinLogo size={40} />
             </a>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function Contact() {
         >
           <div className="flex flex-col relative">
             <label
-              className="absolute bg-gray-900 pl-2 pr-2 pt-0 pb-0 left-3 bottom-10"
+              className="absolute bg-gray-900 pl-2 pr-2 pt-0 pb-0 left-3 bottom-10 text-purple-400"
               htmlFor="email"
             >
               Email
@@ -109,7 +109,7 @@ export default function Contact() {
           </div>
           <div className="flex flex-col relative">
             <label
-              className="absolute bg-gray-900 pl-2 pr-2 pt-0 pb-0 left-3 bottom-10"
+              className="absolute bg-gray-900 pl-2 pr-2 pt-0 pb-0 left-3 bottom-10 text-purple-400"
               htmlFor="name"
             >
               Nome
@@ -124,7 +124,7 @@ export default function Contact() {
             />
           </div>
           <div className="flex flex-col relative">
-            <label htmlFor="message" className="absolute bg-gray-900 pl-2 pr-2 pt-0 pb-0 left-3 bottom-16">Mensagem</label>
+            <label htmlFor="message" className="absolute bg-gray-900 pl-2 pr-2 pt-0 pb-0 left-3 bottom-16 text-purple-400">Mensagem</label>
             <textarea
               required
               name="message"

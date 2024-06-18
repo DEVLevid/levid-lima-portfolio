@@ -36,7 +36,7 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
         className="overflow-hidden transition-max-height duration-500 ease-in-out"
         style={{ maxHeight: '0px' }}
       >
-        <div className="p-4 mt-4 bg-gray-300 rounded h-fit text-gray-950">{children}</div>
+        <div className="p-4 mt-4 bg-gray-300 rounded h-fit text-gray-950 overflow-auto">{children}</div>
       </div>
     </div>
   );

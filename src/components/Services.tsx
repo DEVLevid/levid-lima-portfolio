@@ -2,9 +2,9 @@ import { CompassTool, Desktop, FileTsx } from "@phosphor-icons/react";
 
 export default function Services() {
   return (
-    <div id="services" className="bg-purple-950 w-100 h-fit flex flex-col items-center justify-between pl-96 pr-96 place-items-center p-16 mb-40">
+    <div id="services" className="bg-purple-950 w-100 h-fit flex flex-col items-center justify-between pl-96 pr-96 place-items-center p-16 mb-40 2xl:pl-12 2xl:pr-12">
       <h1 className="font-normal text-6xl mb-12">Serviços que eu ofereço </h1>
-      <div className="flex items-center gap-12">
+      <div className="flex items-center gap-12 2xl:flex-col">
         <div className="bg-purple-900 w-96 h-96 rounded-lg p-8 hover:bg-purple-800 transition-colors">
           <CompassTool size={40} />
           <h3 className="text-2xl font-mono mt-4">

@@ -8,7 +8,7 @@ export default function Experience({ className }: ExperienceProps) {
   return (
     <div className={className}>
       <Collapsible title="Experiência">
-        <table className="min-w-full bg-gray-300 border border-gray-300">
+        <table className="min-w-full bg-gray-300 border border-gray-300 overflow-auto">
           <thead>
             <tr>
               <th className="border px-4 py-2 text-gray-700">

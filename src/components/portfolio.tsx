@@ -6,13 +6,21 @@ import "swiper/css/bundle";
 export default function Portfolio() {
   return (
     <div className="mb-40" id="portfolio">
-      <h1 className="text-5xl flex mb-20 justify-center">Projetos</h1>
+      <h1 className="text-5xl flex mb-20 justify-center 2xl:text-4xl">Projetos</h1>
       <Swiper
-        slidesPerView={3.2}
+        slidesPerView={1.2}
         grabCursor
         className="flex h-96 mb-12"
         direction="horizontal"
         loop={true}
+        breakpoints={{
+          640: {
+            slidesPerView: 1.5,
+          },
+          768: {
+            slidesPerView: 2.5,
+          }
+        }}
       >
         {Projects.map((data, index) => (
           <div key={`${data.id} - ${index}`} className="flex flex-row">
