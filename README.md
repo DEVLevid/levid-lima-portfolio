@@ -24,7 +24,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 A estrutura do projeto é organizada da seguinte forma:
 
-```
+```php
 meu-site-pessoal/
 ├── public/ # Arquivos públicos (imagens, ícones, etc.)
 ├── src/ # Código-fonte do projeto
