@@ -1,7 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  FlowArrow,
-} from "@phosphor-icons/react";
+import { FlowArrow } from "@phosphor-icons/react";
 import { Projects } from "../data/projects";
 import "swiper/css/bundle";
 
@@ -12,8 +10,9 @@ export default function Portfolio() {
       <Swiper
         slidesPerView={3.2}
         grabCursor
-        loop={true}
         className="flex h-96 mb-12"
+        direction="horizontal"
+        loop={true}
       >
         {Projects.map((data, index) => (
           <div key={`${data.id} - ${index}`} className="flex flex-row">
