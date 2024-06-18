@@ -19,11 +19,12 @@ export default function Contact() {
     });
   };
 
-  const sendEmail = (event: FormEvent<HTMLFormElement>) => {
+  function sendEmail(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
     if (form.current) {
       const formData = new FormData(form.current);
+      console.log(form.current)
       const emailData: Record<string, string> = {};
       formData.forEach((value, key) => {
         emailData[key] = value as string;
@@ -43,7 +44,7 @@ export default function Contact() {
 
       form.current.reset();
     }
-  };
+  }
 
   return (
     <div
@@ -126,7 +127,6 @@ export default function Contact() {
             <label htmlFor="message" className="absolute bg-gray-900 pl-2 pr-2 pt-0 pb-0 left-3 bottom-16">Mensagem</label>
             <textarea
               required
-              
               name="message"
               id="message"
               placeholder="Digite sua mensagem aqui..."
