@@ -11,15 +11,27 @@ export default function Experience({ className }: ExperienceProps) {
         <table className="min-w-full bg-gray-300 border border-gray-300 overflow-auto">
           <thead>
             <tr>
-              <th className="border px-4 py-2 text-gray-700">
-                Área
-              </th>
+              <th className="border px-4 py-2 text-gray-700">Área</th>
               <th className="border px-4 py-2 text-gray-700">Empresa</th>
               <th className="border px-4 py-2 text-gray-700">Atribuições</th>
               <th className="border px-4 py-2 text-gray-700">Período</th>
             </tr>
           </thead>
           <tbody>
+          <tr>
+              <td className="border px-4 py-2">Desenvolvedor Frontend</td>
+              <td className="border px-4 py-2">Dialweb</td>
+              <td className="border px-4 py-2">
+                Contribui com o time de Desenvolvimento Frontend criando e
+                integrando novas features para as aplicações web. Tornei a
+                experiência do usuário mais agradável utilizando conceitos de UX
+                e desenvolvi códigos de forma objetiva e organizada fazendo o
+                uso de clean code, seguindo técnicas como DRY code e respeitando
+                o padrão de código estabelecido além sempre atualizando o fluxo
+                da metodologia ágil utilizada.
+              </td>
+              <td className="border px-4 py-2">2 meses</td>
+            </tr>
             <tr>
               <td className="border px-4 py-2">Desenvolvedor Frontend</td>
               <td className="border px-4 py-2">
@@ -30,8 +42,8 @@ export default function Experience({ className }: ExperienceProps) {
                 as interfaces de usuário, garantindo que a experiência seja
                 intuitiva e atraente. Participei ativamente das reuniões da
                 equipe contribuindo com ideias e soluções para eventuais
-                desafios técnicos e trabalhei de forma colaborativa para alcançar
-                os objetivos do projeto dentro dos padrões e prazos
+                desafios técnicos e trabalhei de forma colaborativa para
+                alcançar os objetivos do projeto dentro dos padrões e prazos
                 estabelecidos.
               </td>
               <td className="border px-4 py-2">1 ano e 4 meses</td>
