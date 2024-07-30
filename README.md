@@ -70,7 +70,5 @@ No portfólio, apresento uma coleção dos meus projetos anteriores. Cada projet
 Disponibilizo minhas informações de contato, incluindo email e links para redes sociais profissionais, facilitando a comunicação com potenciais clientes ou colaboradores.
 
 ## Licença
-
 Este projeto está licenciado sob a MIT License.
-
 Obrigado por visitar meu repositório! Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo diretamente.
