@@ -19,8 +19,8 @@ export default function About() {
         <p className="w-2/4 mt-4 font-medium text-wrap text-xl leading-8 md:w-2/3">
           Atualmente, estudo{" "}
           <span className="text-purple-300">sistemas de informação</span> pelo
-          Intituto Federal de Alagoas - IFAL. Estou sempre me atualizando com as
-          novas tecnologias do mercado. Sou apixonado pelo desenvolvimento,
+          Instituto Federal de Alagoas - IFAL. Estou sempre me atualizando com as
+          novas tecnologias do mercado. Sou apaixonado pelo desenvolvimento,
           principalmente pela capacidade de transformação de ideias em coisas
           reais através dele.
         </p>
