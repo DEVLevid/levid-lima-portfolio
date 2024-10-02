@@ -1,5 +1,4 @@
 # Meu Site Pessoal
-
 Bem-vindo ao repositório do meu site pessoal! Este projeto foi desenvolvido usando React, TypeScript e Tailwind CSS, com o objetivo de criar uma plataforma para apresentar meus serviços como desenvolvedor frontend, demonstrar minhas habilidades e exibir meu portfólio de projetos.
 
 ## Objetivos do Projeto
@@ -68,9 +67,6 @@ No portfólio, apresento uma coleção dos meus projetos anteriores. Cada projet
 ### Contato
 
 Disponibilizo minhas informações de contato, incluindo email e links para redes sociais profissionais, facilitando a comunicação com potenciais clientes ou colaboradores.
-
 ## Licença
-
 Este projeto está licenciado sob a MIT License.
-
 Obrigado por visitar meu repositório! Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo diretamente.
