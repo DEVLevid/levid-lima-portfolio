@@ -1,4 +1,3 @@
-
 # Meu Site Pessoal
 Bem-vindo ao repositório do meu site pessoal! Este projeto foi desenvolvido usando React, TypeScript e Tailwind CSS, com o objetivo de criar uma plataforma para apresentar meus serviços como desenvolvedor frontend, demonstrar minhas habilidades e exibir meu portfólio de projetos.
 
